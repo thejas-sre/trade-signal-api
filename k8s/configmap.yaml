@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trade-signal-api-config
+data:
+  REDIS_PORT: "6379"
+  SIGNAL_TTL: "60"
+  REDIS_POOL_SIZE: "20"
+  LOG_LEVEL: "INFO"
